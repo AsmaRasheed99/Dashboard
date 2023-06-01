@@ -7,10 +7,7 @@ const CarItem = (props) => {
       <div className="car__item-top">
         <div className="car__item-tile">
           <h3>{carName}</h3>
-          <span>
-            <i class="ri-delete-bin-line"></i>
-      
-          </span>
+          
         </div>
         <p>{category}</p>
       </div>

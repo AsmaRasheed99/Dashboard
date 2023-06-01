@@ -6,7 +6,7 @@ import Costumers from "../pages/Costumers";
 import Settings from "../pages/Settings";
 import Cars from "../pages/Cars";
 import Providers from "../pages/Providers";
-
+import History from "../pages/History";
 const Router = () => {
   return (
     <Routes>
@@ -19,6 +19,7 @@ const Router = () => {
       <Route path="/Costumers" element={<Costumers />} />
       <Route path="/settings" element={<Settings />} />
       <Route path="/Providers" element={<Providers/>}/>
+      <Route path="/History" element={<History/>}/>
     </Routes>
   );
 };
