@@ -38,7 +38,7 @@ function Costumers() {
             <td>0777777777</td>
             <td>Amman,Jordan</td>
             <td>
-              <button type="button" className="btn btn-link btn-sm btn-rounded">
+              <button type="button" className="btn btn-link btn-lg btn-rounded">
                 <i class="ri-delete-bin-line"></i>
               </button>
             </td>
